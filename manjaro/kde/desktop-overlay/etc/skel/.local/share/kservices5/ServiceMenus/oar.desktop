@@ -1,0 +1,15 @@
+[Desktop Action Open_as_Root]
+
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true dolphin %f
+
+Name=Open as Root
+Icon=system-file-manager
+
+[Desktop Entry]
+Actions=Open_as_Root
+
+MimeType=inode/directory;
+
+ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+X-KDE-Priority=TopLevel

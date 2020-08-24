@@ -176,8 +176,8 @@ partitionmanager
 spectacle
 
 ## Optional dependencies for ark
-p7zip  # 7Z format support
-unarchiver  # RAR format support
+#p7zip  # 7Z format support
+#unarchiver  # RAR format support
 
 ## Optional dependency for digikam
 #>extra kipi-plugins  # export to various online services
@@ -193,12 +193,12 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
->extra cdparanoia    # for cd ripping support
->extra cdrdao        # for disk-at-once (DAO) mode support
->extra dvd+rw-tools  # for dvd burning support
->extra emovix        # for bootable multimedia cd/dvd support
->extra transcode     # for advanced mpeg conversion support
->extra vcdimager     # for vcd burning support
+#>extra cdparanoia    # for cd ripping support
+#>extra cdrdao        # for disk-at-once (DAO) mode support
+#>extra dvd+rw-tools  # for dvd burning support
+#>extra emovix        # for bootable multimedia cd/dvd support
+#>extra transcode     # for advanced mpeg conversion support
+#>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -221,6 +221,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 >extra cantata
 dmidecode # for inxi -m output
 firefox
+firefox-i18n-ja
 htop
 inxi
 #>extra krita
@@ -237,7 +238,10 @@ screenfetch
 systemd-kcm
 >extra thunderbird
 >extra vlc
-yakuake
+#>extra yakuake
+
+>extra libreoffice-fresh
+>extra libreoffice-fresh-ja
 
 ## Optional dependencis for cantata
 >extra mpd       # playback
@@ -248,7 +252,7 @@ yakuake
 #>extra jdk8-openjdk
 
 ## Documentation
-manjaro-documentation-en
+>extra manjaro-documentation-en
 
 ## Settings packages
 manjaro-kde-settings
@@ -259,6 +263,16 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+
+## xrdp
+xrdp
+xorgxrdp-devel-git
+xf86-video-fbdev
+
+## Input Method
+fcitx
+fcitx-mozc
+fcitx-configtool
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver

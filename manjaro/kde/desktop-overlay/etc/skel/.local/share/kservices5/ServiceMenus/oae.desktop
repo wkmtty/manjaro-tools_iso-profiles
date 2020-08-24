@@ -1,0 +1,15 @@
+[Desktop Action Edit_as_Root]
+
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true kate %f
+
+Name=Edit as Root
+Icon=accessories-text-editor
+
+[Desktop Entry]
+Actions=Edit_as_Root
+
+MimeType=all/allfiles;
+
+ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+X-KDE-Priority=TopLevel
