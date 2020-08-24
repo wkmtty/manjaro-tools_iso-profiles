@@ -143,6 +143,10 @@ xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 pavucontrol
 
+## xrdp
+xrdp
+xorgxrdp-devel-git
+
 ## Themes
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
@@ -158,7 +162,8 @@ xcursor-vanilla-dmz-aa
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
+firefox
+firefox-i18n-ja
 # >extra flashplugin
 >extra galculator-gtk2
 gcolor2
@@ -179,7 +184,8 @@ manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic midori
 >extra mlocate
-mousepad
+#mousepad
+geany
 mugshot
 >basic parole # media player
 >extra pidgin
@@ -192,6 +198,9 @@ screenfetch
 >extra viewnior
 >extra xfburn
 >extra yelp
+
+>extra libreoffice-fresh
+>extra libreoffice-fresh-ja
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -227,6 +236,12 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xf86-video-fbdev
+
+## Input Method
+fcitx
+fcitx-mozc
+fcitx-configtool
 
 ## Desktop Utils
 perl-file-mimeinfo
